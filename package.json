@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0",
+  "description": "Script to create and sync Japanese language Quizlet sets from a source Google Spreadsheet",
+  "scripts": {
+    "update": "node index.js"
+  },
+  "author": {
+    "name": "Michael Strickland",
+    "email": "michael.strickland@nytimes.com"
+  },
+  "dependencies": {
+    "wanakana": "*",
+    "googleapis": "*",
+    "google-auth-library": "*",
+    "request": "*",
+    "readline": "*"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ]
+}
