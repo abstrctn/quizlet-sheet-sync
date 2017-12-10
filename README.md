@@ -67,7 +67,7 @@ When it's done, go back to Quizlet and you should see two new study sets for eac
 
 ### What it's doing
 
-The script keeps track of which spreadsheet tabs created each study set by adding a file to your Google Drive's `[appDataFolder](https://developers.google.com/drive/v3/web/appdata)` for each Spreadsheet you convert. This maps each tab ID to the Quizlet set ID.
+The script keeps track of which spreadsheet tabs created each study set by adding a file to your Google Drive's [`appDataFolder`](https://developers.google.com/drive/v3/web/appdata) for each Spreadsheet you convert. This maps each tab ID to the Quizlet set ID.
 
 Not all edge cases are handled, but this means you add new tabs at any time, rename them, etc., and existing sets will be updated accordingly.
 
